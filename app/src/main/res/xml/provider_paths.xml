@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <!-- 代表内部存储的files目录，与Context.getFilesDir()获取的路径对应 -->
+    <files-path
+        name="files"
+        path="."/>
+
+    <!-- 代表内部存储的cache目录，与Context.getCacheDir()获取的路径对应 -->
+    <cache-path
+        name="cache"
+        path="."/>
+
+    <!-- 代表外部共享存储(sdcard)根目录，与Environment.getExternalStorageDirectory()获取的路径对应 -->
+    <external-path
+        name="external"
+        path="."/>
+
+    <!-- 代表app的外部私有存储的根目录，与Context.getExternalFilesDir(String)、Context.getExternalFilesDir(null)获取的路径对应 -->
+    <external-files-path
+        name="external-files"
+        path="."/>
+
+    <!-- 代表app外部私有存储缓存区域的目录，与Context.getExternalCacheDir()获取的路径对应 -->
+    <external-cache-path
+        name="external-cache"
+        path="."/>
+
+    <!-- 代表app外部私有存储媒体区域的目录，与Context.getExternalMediaDirs()获取的路径对应 -->
+    <external-media-path
+        name="external-media"
+        path="."/>
+
+</paths>
